@@ -5,7 +5,7 @@ import RadialBackground from "./RadialBackground";
 
 const Projects = () => {
     return (
-        <section className="bg-gray-900 py-20 px-4 mt-0.25 relative">
+        <section id="projects" className="bg-gray-900 py-20 px-4 mt-0.25 relative">
             <h2 className="text-4xl font-bold text-blue-400 mb-8 text-center">Projects</h2>
             <div className="flex justify-center flex-wrap gap-10">
                 {projects.map((project, index) => (

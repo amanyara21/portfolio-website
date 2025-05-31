@@ -4,7 +4,7 @@ import RadialBackground from "./RadialBackground";
 
 const Contact = () => {
     return (
-        <section className="relative w-full bg-gray-900 text-white px-6 py-12 flex flex-col md:flex-row justify-center pt-24 p-12 mt-0.25 gap-y-20">
+        <section id="contact" className="relative w-full bg-gray-900 text-white px-6 py-12 flex flex-col md:flex-row justify-center pt-24 p-12 mt-0.25 gap-y-20">
             <div className="w-full md:w-2/5 space-y-6">
                 <h2 className="text-2xl md:text-3xl font-semibold bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">
                     DO YOU HAVE A PROJECT TO DISCUSS?

@@ -4,7 +4,7 @@ import About from "../assets/about.png";
 
 const AboutMe = () => {
   return (
-    <section className="relative flex flex-col md:flex-row items-center justify-center min-h-screen px-6 md:px-16 bg-gray-900 text-white overflow-hidden mt-0.25">
+    <section id="about" className="relative flex flex-col md:flex-row items-center justify-center min-h-screen px-6 md:px-16 bg-gray-900 text-white overflow-hidden mt-0.25">
       
       <RadialBackground colorFrom="rgba(6, 52, 150, 1)" colorTo="rgba(14, 61, 143, 1)" top="50%" left="50%" width="50%" height="50%" opacity={0.8} zIndex={0}/>
       <RadialBackground colorFrom="rgba(255, 0, 150, 0.4)" colorTo="transparent" top="5%" left="5%" width="50%" height="50%" opacity={0.8} zIndex={0}/>

@@ -6,7 +6,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const Intro = () => {
   return (
-    <section className="min-h-screen flex items-end justify-center bg-gray-900 pt-32 px-12 text-white relative pb-0">
+    <section id="home" className="min-h-screen flex items-end justify-center bg-gray-900 pt-32 px-12 text-white relative pb-0">
       <div className="max-w-7xl w-full grid md:grid-cols-2 items-center gap-8">
         <div>
           <h2 className="w-[100%] text-3xl text-gray-50 uppercase tracking-widest">
@@ -26,7 +26,7 @@ const Intro = () => {
           </h1>
           <p className="text-lg mt-6 text-gray-300">
             I am a
-            <span className="text-blue-400">Mobile App Developer</span> with a
+            <span className="text-blue-400"> Mobile App Developer</span> with a
             passion for creating Native Android and Cross Platform Apps.
           </p>
 
