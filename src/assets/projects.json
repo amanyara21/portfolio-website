@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Fit Yatra - A Health and Fitness App",
+    "techStack": "Kotlin, XML, Firebase ML Kit, SQLite, Python (Flask)",
+    "details": [
+      "Android app with step tracking, exercise rep counting, and posture detection using mobile sensors and ML Kit with over 85% accuracy.",
+      "Personalized goal-setting, diet planning, and corrective activities integrated with Health Connect API for seamless health data aggregation.",
+      "Interactive analytics dashboards showing 7-day trends in calorie intake, calorie burn, and steps, helping users improve posture."
+    ],
+    "githubUrl": "https://github.com/amanyara21/fityatraapp"
+  },
+  {
+    "title": "CricMate - Bowling Analysis & Coaching App",
+    "techStack": "Kotlin, Jetpack Compose, Firebase ML Kit, TensorFlow Lite, Node.js, Express.js, MongoDB",
+    "details": [
+      "Dual-camera cricket analysis app providing frame-by-frame ML analysis of 2000+ frames to generate 3D ball trajectories using Scene View.",
+      "Real-time visualizations and interactive charts for line and angular performance metrics.",
+      "Role-based modules for Players and Coaches with an event system that shortlists players based on test scores and historical performance."
+    ],
+    "githubUrl": "https://github.com/amanyara21/cricmate"
+  },
+  {
+    "title": "ClinicEase - Healthcare Management System",
+    "techStack": "React Native, Spring Boot Microservices, Spring Security, Eureka, OpenFeign, API Gateway, MySQL",
+    "details": [
+      "Microservices-based healthcare system with Eureka service discovery, OpenFeign for inter-service communication, and API Gateway for routing and load balancing.",
+      "JWT-based secure authentication enabling patients to book appointments, attend video consultations via WebRTC, and access medical history, test reports, and prescriptions.",
+      "Role-specific dashboards: doctors manage bookings and prescriptions; admins add doctors and assign specializations."
+    ],
+    "githubUrl": "https://github.com/amanyara21/healthcareapp"
+  },
+  {
+    "title": "Electric Vehicle Charging Station Booking App",
+    "techStack": "React Native, Redux, Express.js, Node.js, MongoDB",
+    "details": [
+      "Real-time charging station locator using Google Maps API with sorting by nearby locations and live availability updates.",
+      "Booking system to reserve charging slots with real-time updates managed with Redux and secure payments via Stripe API.",
+      "User authentication and authorization, along with user reviews and ratings for charging stations to improve security and user decisions."
+    ],
+    "githubUrl": "https://github.com/amanyara21/evrcs"
+  },
+  {
+    "title": "E-Cell Website",
+    "techStack": "React.js",
+    "details": [
+      "Developed a dynamic website to display upcoming and past events of E-Cell.",
+      "Implemented user-friendly interface with React.js for easy navigation and event discovery."
+    ],
+    "liveUrl": "https://ecelluietkuk.vercel.app/"
+  },
+  {
+    "title": "TPO Website",
+    "techStack": "HTML, CSS, JavaScript",
+    "details": [
+      "Created a responsive website showcasing activities, team details, and placement records.",
+      "Visualized placement data using interactive pie charts for clear insights."
+    ],
+    "liveUrl": "https://tpocell.vercel.app/"
+  }
+]
