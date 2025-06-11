@@ -33,7 +33,7 @@ const Intro = () => {
           <div className="mt-8">
             <div className="inline-block p-[1.5px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-2xl">
               <a href={resume} target="_blank" rel="noopener noreferrer">
-                <button className="bg-[#0d1117] text-white px-10 py-2 rounded-2xl w-full hover:opacity-90 transition uppercase">
+                <button className="bg-[#0d1117] text-white px-10 py-2 rounded-2xl w-full hover:opacity-90 transition uppercase poin-cursor-pointer">
                   RESUME
                 </button>
               </a>
