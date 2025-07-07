@@ -7,6 +7,7 @@
       "Personalized goal-setting, diet planning, and corrective activities integrated with Health Connect API for seamless health data aggregation.",
       "Interactive analytics dashboards showing 7-day trends in calorie intake, calorie burn, and steps, helping users improve posture."
     ],
+    "video":"https://www.youtube.com/shorts/NoSmbTUO81Q",
     "githubUrl": "https://github.com/amanyara21/fityatraapp"
   },
   {
@@ -17,6 +18,7 @@
       "Real-time visualizations and interactive charts for line and angular performance metrics.",
       "Role-based modules for Players and Coaches with an event system that shortlists players based on test scores and historical performance."
     ],
+    "video":"https://www.youtube.com/shorts/25CxMLTcnqM",
     "githubUrl": "https://github.com/amanyara21/cricmate"
   },
   {
@@ -37,6 +39,7 @@
       "Booking system to reserve charging slots with real-time updates managed with Redux and secure payments via Stripe API.",
       "User authentication and authorization, along with user reviews and ratings for charging stations to improve security and user decisions."
     ],
+    "video":"https://www.youtube.com/shorts/5VQ6mqACOKA",
     "githubUrl": "https://github.com/amanyara21/evrcs"
   },
   {

@@ -1,5 +1,4 @@
 import React from "react";
-import aman from '../assets/aman.png'
 import resume from '../assets/Aman_Resume.pdf'
 import RadialBackground from "./RadialBackground";
 import { Typewriter } from 'react-simple-typewriter';
@@ -45,8 +44,8 @@ const Intro = () => {
 
         <div className="relative flex justify-center items-end">
           <img
-            src={aman}
-            alt="Aman"
+            src="./aman.png"
+            alt="Aman Kumar Yara"
             className="max-h-[500px] object-cover z-10"
           />
           <RadialBackground colorFrom="rgba(6, 52, 150, 1)" colorTo="rgba(14, 61, 143, 1)" top="50%" left="50%" width="50%" height="50%" opacity={0.8} zIndex={0} />

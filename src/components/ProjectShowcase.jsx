@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt, FaYoutube } from "react-icons/fa";
 
 const ProjectCard = ({ project }) => {
-  const { title, techStack, details, githubUrl, liveUrl } = project;
+  const { title, techStack, details, githubUrl, liveUrl, video } = project;
 
   return (
     <motion.div
@@ -51,6 +51,17 @@ const ProjectCard = ({ project }) => {
           >
             <FaExternalLinkAlt className="text-xl" />
             <span>Live Site</span>
+          </a>
+        )}
+        {video && (
+          <a
+            href={video}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-white/80 hover:text-white transition"
+          >
+            <FaYoutube className="text-xl" />
+            <span>YT Video</span>
           </a>
         )}
       </div>

@@ -10,4 +10,5 @@ button:hover {
     background: linear-gradient(to right, #3b82f6, #8b5cf6, #ec4899);
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(59, 130, 246, 0.3);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
